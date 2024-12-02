@@ -20,6 +20,8 @@ namespace IllumiantiArchive.Models
 
         public string? Found { get; set; }
 
+        public string? Apperal { get; set; }
+
         public string? Caused { get; set; }
 
         public string? Information { get; set; }
