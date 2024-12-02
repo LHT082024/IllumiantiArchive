@@ -1,0 +1,6 @@
+@IllumiantiArchive_HostAddress = http://localhost:5118
+
+GET {{IllumiantiArchive_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
