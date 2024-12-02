@@ -11,5 +11,13 @@ namespace IllumiantiArchive.Models
         public string? Name { get; set; }
 
         public int Grade { get; set; }
+
+        public string? Found { get; set; }
+
+        public string? Caused { get; set; }
+
+        public string? Information { get; set; }
+
+        public string? FinalThoughts { get; set; }
     }
 }
