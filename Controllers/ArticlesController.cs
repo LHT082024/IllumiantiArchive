@@ -12,10 +12,11 @@ namespace IllumiantiArchive.Controllers
     public class ArticlesController
     {
         //the most dangoures anomalies
-        private static List<Articles> articlesGrade10 = new List<Articles>()
+        private static List<Articles> articlesGrade1 = new List<Articles>()
         {
             new Articles{ID = 1,
             Name = "Odin",
+            Aliases = "Lillith, God of magic, The heir, The Angel Swiftport",
             Threatlvl = 10,
             Desig ="Deity",
             Found = " M1804(Home?), M2008, N3001",
@@ -24,8 +25,9 @@ namespace IllumiantiArchive.Controllers
             FinalThoughts = "While dangoures messing with deities has never been good for the organization. Avoid at all cost. If you have to engage do with a friendly tone",
             },
 
-            new Articles{ID = 1,
-            Name =
+            new Articles{ID = 2,
+            Name = "Salem",
+            Aliases = "Dumbears(need to reaserch origin) "
             }
 
 

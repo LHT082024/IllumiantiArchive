@@ -10,6 +10,8 @@ namespace IllumiantiArchive.Models
         public int ID { get; set; }
         public string? Name { get; set; }
 
+        public string? Aliases { get; set; }
+
         public int Threatlvl { get; set; }
 
         public string? Desig { get; set; }
