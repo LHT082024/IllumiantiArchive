@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IllumiantiArchive.Controllers
 {
+
     [ApiController]
     [Route("Grade 1")]
-    public class ArticleGrade1Controller
+    public class ArticleGrade1Controller : ControllerBase
     {
+        Profiles profiles = new Profiles();
         //the most dangoures anomalies only leaders will have acsess to these files
         private static List<Articles> articlesGrade1 = new List<Articles>()
         {
@@ -55,9 +57,16 @@ namespace IllumiantiArchive.Controllers
 
         //Grade 1 articles.
         [HttpGet]
-        public IEnumerable<Articles> GetGrade1()
+        public IActionResult GetGrade1()
         {
-            return articlesGrade1;
+            if (profiles.Securitylvl == 1)
+            {
+                return Ok(articlesGrade1);
+            }
+
+            return Unauthorized(new { Message = "Your secuirty level is too low" });
+
+
         }
 
     }
