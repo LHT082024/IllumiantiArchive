@@ -78,7 +78,6 @@ namespace IllumiantiArchive.Controllers
              Apperal = "A hooded figure with a violin",
              Information = "The Musican is known for playing beautiful but uncanny music, has been seen several times playing for different deities",
              FinalThoughts = "Every encounter with the man has been plesant, valuble resource in gathering information about the gods. Chatting recomended but dont let him play for you"
-
              }
 
         };
