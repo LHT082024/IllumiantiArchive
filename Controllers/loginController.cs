@@ -40,6 +40,8 @@ namespace IllumiantiArchive.Controllers
                 return Unauthorized(new { Message = "Invalid Username or Password" });
             }
 
+            HttpContext.Session.SetString("LoggedInUser", user.Username);
+
             return Ok(new { Message = "Login sucessful", profiles = user });
         }
 
@@ -52,8 +54,8 @@ namespace IllumiantiArchive.Controllers
             {
                 return Unauthorized(new { Message = "No user is logged in" });
             }
+
+            return Ok(new { Message = "Current User", Username = username });
         }
     }
-
-
 }
