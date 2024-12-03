@@ -59,5 +59,15 @@ namespace IllumiantiArchive.Controllers
 
             return Ok(new { Message = "Current User", Username = username });
         }
+
+
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            // Clear all session data
+            HttpContext.Session.Clear();
+
+            return Ok(new { Message = "You have logged out successfully" });
+        }
     }
 }
