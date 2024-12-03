@@ -20,9 +20,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-//loginstuff
-app.MapIdentityApi<IdentityUser>();
-
 app.UseAuthorization();
 
 app.MapGet("/", () => Results.Redirect("/swagger"));
