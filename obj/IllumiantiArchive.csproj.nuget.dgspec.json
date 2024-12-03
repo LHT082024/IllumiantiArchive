@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive\\IllumiantiArchive.csproj": {}
+    "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\IllumiantiArchive.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive\\IllumiantiArchive.csproj": {
+    "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\IllumiantiArchive.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive\\IllumiantiArchive.csproj",
+        "projectUniqueName": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\IllumiantiArchive.csproj",
         "projectName": "IllumiantiArchive",
-        "projectPath": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive\\IllumiantiArchive.csproj",
+        "projectPath": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\IllumiantiArchive.csproj",
         "packagesPath": "C:\\Users\\lucie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive\\obj\\",
+        "outputPath": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
