@@ -13,7 +13,17 @@ namespace IllumiantiArchive.Controllers
     {
         List<Profiles> profiles = new List<Profiles>()
         {
-            new Profiles{}
+            new Profiles{ID = 1,
+            Username = "Snorre",
+            Password = "ReykholtIsBae1179",
+            Securitylvl = 1
+            },
+
+            new Profiles{ID = 2,
+            Username = "Brian",
+            Password = "CatGirlLover2001",
+            Securitylvl = 2
+            }
 
         };
 
