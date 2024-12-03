@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IllumiantiArchive")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56ce324896527da10976adc79a200d0a2bb0c36f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac6fff7664e82ea062d1057ce1bc74b22776b9ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("IllumiantiArchive")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IllumiantiArchive")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
