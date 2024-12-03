@@ -35,7 +35,12 @@ namespace IllumiantiArchive.Controllers
             u.Password == loginRequest.Password);
 
             if (user == null)
+            {
                 return Unauthorized(new { Message = "Invalid Username or Password" });
+            }
+
+            return Ok(new { Message = "Login sucessful", profiles = user });
+
 
         }
     }
