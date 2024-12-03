@@ -10,7 +10,12 @@ using Microsoft.AspNetCore.Http;
 namespace IllumiantiArchive.Controllers
 {
 
-    //
+    //the loginController handles everything about the user profiles. 
+    //first we have a list of every profile. Passwords arent Hashed
+    //and everything is stored directly into the code instead of a database
+    //beacuse my main priority here was just having a fun and easy website
+    //where I created a login system with different privliages depending on 
+    // the "security level" of the user, not really security.
     [ApiController]
     [Route("profiles")]
     public class loginController : ControllerBase
@@ -30,6 +35,9 @@ namespace IllumiantiArchive.Controllers
             }
         };
 
+
+        //the first http method. it's used for login as it is named.
+        //it uses the httpContext.session
         [HttpPost("login")]
         public IActionResult Login([FromBody] Profiles loginRequest)
         {
