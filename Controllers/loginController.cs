@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using IllumiantiArchive.Models;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace IllumiantiArchive.Controllers
 {
@@ -40,8 +41,17 @@ namespace IllumiantiArchive.Controllers
             }
 
             return Ok(new { Message = "Login sucessful", profiles = user });
+        }
 
+        [HttpGet("current")]
+        public IActionResult CurrentUser()
+        {
+            var username = HttpContext.Session.GetString("LoggedInUser");
 
+            if (string.IsNullOrEmpty(username))
+            {
+                return Unauthorized(new { Message = "No user is logged in" });
+            }
         }
     }
 
