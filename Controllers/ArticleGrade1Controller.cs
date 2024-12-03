@@ -64,7 +64,7 @@ namespace IllumiantiArchive.Controllers
                 return Ok(articlesGrade1);
             }
 
-            return Unauthorized(new { Message = "Your secuirty level is too low" });
+            return Unauthorized(new { Message = "You are either not logged in or your secuirty level is too low" });
 
 
         }

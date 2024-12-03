@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using IllumiantiArchive.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IllumiantiArchive.Controllers
@@ -11,13 +12,14 @@ namespace IllumiantiArchive.Controllers
     [Route("Grade2")]
 
     //5/10 dangoures Anomolies, most employees will know about these.
-    public class ArticleGrade2Controller
+    public class ArticleGrade2Controller : ControllerBase
     {
+        Profiles profiles = new Profiles();
 
-        private static List<Articles2> articlesGrade2 = new List<Articles2>()
+        private static List<Articles> articlesGrade2 = new List<Articles>()
         {
 
-              new Articles2
+              new Articles
              {ID = 4,
              Name = "Mi-go",
              Aliases = "The Fungi",
@@ -30,7 +32,7 @@ namespace IllumiantiArchive.Controllers
              FinalThoughts = "any sighting are to be reported directly to your superior. avoid any and all hostile actions unless it is in self defense, dont accept any offers of knowledge"
              },
 
-             new Articles2
+             new Articles
              {ID = 5,
              Name = "Zann",
              Aliases = "the Musican",
@@ -46,9 +48,14 @@ namespace IllumiantiArchive.Controllers
 
         // //grade 2 articles
         [HttpGet]
-        public IEnumerable<Articles2> GetGrade2()
+        public IActionResult GetGrade2()
         {
-            return articlesGrade2;
+            if (profiles.Securitylvl >= 2)
+            {
+                return Ok(articlesGrade2);
+            }
+
+            return Unauthorized(new { Message = "You are either not logged in or your secuirty level is too low" });
         }
 
     }
