@@ -59,6 +59,8 @@ namespace IllumiantiArchive.Controllers
             return Ok(new { Message = "Login sucessful", profiles = user });
         }
 
+        //a method that lets you check if there are anyone currently logged in
+        //and if they are, it prints the username.
         [HttpGet("current")]
         public IActionResult CurrentUser()
         {
@@ -73,6 +75,7 @@ namespace IllumiantiArchive.Controllers
         }
 
 
+        //by clearing the session data you are effectivly logged out
         [HttpPost("logout")]
         public IActionResult Logout()
         {
