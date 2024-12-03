@@ -59,7 +59,9 @@ namespace IllumiantiArchive.Controllers
         [HttpGet]
         public IActionResult GetGrade1()
         {
-            if (profiles.Securitylvl == 1)
+            var securityLevel = HttpContext.Session.GetInt32("SecurityLevel");
+
+            if (securityLevel == 1)
             {
                 return Ok(articlesGrade1);
             }

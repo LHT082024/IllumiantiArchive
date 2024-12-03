@@ -41,6 +41,7 @@ namespace IllumiantiArchive.Controllers
             }
 
             HttpContext.Session.SetString("LoggedInUser", user.Username);
+            HttpContext.Session.SetInt32("SecurityLevel", user.Securitylvl);
 
             return Ok(new { Message = "Login sucessful", profiles = user });
         }
