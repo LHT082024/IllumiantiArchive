@@ -45,6 +45,7 @@ namespace IllumiantiArchive.Controllers
         };
 
         // //grade 2 articles
+        [HttpGet]
         public IEnumerable<Articles2> GetGrade2()
         {
             return articlesGrade2;
