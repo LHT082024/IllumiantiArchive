@@ -9,7 +9,7 @@ namespace IllumiantiArchive.Controllers
 {
     [ApiController]
     [Route("Controllers")]
-    public class ArticlesController
+    public class ArticleGrade1Controller
     {
         //the most dangoures anomalies only leaders will have acsess to these files
         private static List<Articles> ArticlesGrade1 = new List<Articles>()
