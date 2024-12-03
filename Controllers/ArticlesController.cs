@@ -11,7 +11,7 @@ namespace IllumiantiArchive.Controllers
     [Route("Controllers")]
     public class ArticlesController
     {
-        //the most dangoures anomalies
+        //the most dangoures anomalies only leaders will have acsess to these files
         private static List<Articles> articlesGrade1 = new List<Articles>()
         {
             new Articles{ID = 1,
@@ -40,21 +40,48 @@ namespace IllumiantiArchive.Controllers
 
             new Articles{ID = 3,
             Name = "Emma",
-            Aliases = "Annoying-bitch(still waiting for a source X..), God of chaos, Chesire cat,",
+            Aliases = "Annoying-bitch(still waiting for a source Brian..), God of chaos, Chesire cat,",
             Threatlvl = 10,
             Desig = "Deity(possible avatar of A)",
             Found = "M2008, M1301, N2002, Hell, N1704, N3001, N905, M1804 ",
-            Caused = "Traveling, Time-loops, terraforming, reality creation, possible eating, Time freeze",
+            Caused = "Traveling, Time-loops, terraforming, reality creation, (possible) eating, Time freeze",
             Apperal = "Short young woman, a shapeless cluster of tentacles",
             Information = "Has extreme moodswings, Usually very sweet, relaxed likes to tell jokes then at the drop of a hat turns unpleasent and agressive",
-            FinalThoughts = "dont engage, if you see her run, get away, dont engage, dont engage"
+            FinalThoughts = "dont engage, if you see her leave the reality immideatly and report it to S"
             },
         };
 
+        //5/10 dangoures Anomolies, most employees will know about these.
         private static List<Articles> articlesGrade2 = new List<Articles>()
         {
+            new Articles
+             {ID = 4,
+             Name = "Mi-go",
+             Aliases = "The Fungi",
+             Threatlvl = 4,
+             Desig = "Bug",
+             Found = "Usually on moons of planets with human inhabitants",
+             Caused = "traveling",
+             Apperal = "Generaly looks like a crustacean animal but bodies made up of eldritch matter",
+             Information = "they travel to planets to extract metals and knowledge to what end we are not sure",
+             FinalThoughts = "any sighting are to be reported directly to your superior. avoid any and all hostile actions unless it is in self defense, dont accept any offers of knowledge"
+             },
 
-        }
+             new Articles
+             {ID = 5,
+             Name = "Zann",
+             Aliases = "the Musican",
+             Threatlvl = 3,
+             Desig = "Eldritch corrupted human",
+             Found = "Usually found with one of the eldritch gods, permant resident possibly n1905",
+             Caused = "Unatrual sound",
+             Apperal = "A hooded figure with a violin",
+             Information = "The Musican is known for playing beautiful but uncanny music, has been seen several times playing for different deities",
+             FinalThoughts = "Every encounter with the man has been plesant, valuble resource in gathering information about the gods. Chatting recomended but dont let him play for you"
+
+             }
+
+        };
 
 
     }
