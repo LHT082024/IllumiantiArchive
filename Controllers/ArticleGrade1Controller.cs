@@ -10,10 +10,14 @@ namespace IllumiantiArchive.Controllers
 
     [ApiController]
     [Route("Grade 1")]
+
+    //I tried having every article in one class but that got messy (and didnt work)
+    //so articles are seperated by grade. Each article uses the article model class as a structure. 
+    //and you can only acsess an article after having logged in and when you have the appropriate grade.
     public class ArticleGrade1Controller : ControllerBase
     {
+        //list of articles
         Profiles profiles = new Profiles();
-        //the most dangoures anomalies only leaders will have acsess to these files
         private static List<Articles> articlesGrade1 = new List<Articles>()
         {
             new Articles{ID = 1,
@@ -53,7 +57,11 @@ namespace IllumiantiArchive.Controllers
             },
         };
 
-        //Grade 1 articles.
+
+        //Http request to display articles. Using httpContext it first
+        //checks the secuirtylvl of the profile logged in during the session
+        //if the securitylvl is high enough it displays the articles
+        //if not you get an error message.
         [HttpGet]
         public IActionResult GetGrade1()
         {
@@ -66,8 +74,6 @@ namespace IllumiantiArchive.Controllers
             }
 
             return Unauthorized(new { Message = "You are either not logged in or your secuirty level is too low" });
-
-
         }
 
     }

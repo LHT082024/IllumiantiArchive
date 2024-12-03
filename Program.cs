@@ -7,8 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-// If I have understood this right this store the fact that you are logged in
-//on the server and if you are idle for 30 minutes you are logged out
+// 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(Options =>
 {

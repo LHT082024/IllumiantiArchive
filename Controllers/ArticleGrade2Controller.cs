@@ -11,7 +11,7 @@ namespace IllumiantiArchive.Controllers
     [ApiController]
     [Route("Grade2")]
 
-    //5/10 dangoures Anomolies, most employees will know about these.
+    //baiscally a copy paste of ArticlesGrade1 but you know. for the grade 2 articles
     public class ArticleGrade2Controller : ControllerBase
     {
         Profiles profiles = new Profiles();

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace IllumiantiArchive.Models
 {
+    //the model class for the articles. 
     public class Articles
     {
         public int ID { get; set; }
