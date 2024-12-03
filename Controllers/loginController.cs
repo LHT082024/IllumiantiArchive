@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using IllumiantiArchive.Models;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IllumiantiArchive.Controllers
 {
     [ApiController]
     [Route("profiles")]
-    public class loginController
+    public class loginController : ControllerBase
     {
         List<Profiles> profiles = new List<Profiles>()
         {
@@ -24,9 +25,20 @@ namespace IllumiantiArchive.Controllers
             Password = "CatGirlLover2001",
             Securitylvl = 2
             }
-
         };
 
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] Profiles loginRequest)
+        {
+            var user = profiles.FirstOrDefault(u =>
+            u.Username == loginRequest.Username &&
+            u.Password == loginRequest.Password);
 
+            if (user == null)
+                return Unauthorized(new { Message = "Invalid Username or Password" });
+
+        }
     }
+
+
 }
