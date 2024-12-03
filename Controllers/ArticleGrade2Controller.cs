@@ -44,11 +44,11 @@ namespace IllumiantiArchive.Controllers
              }
         };
 
-        //grade 2 articles
-        public IEnumerable<Articles> GetGrade2()
-        {
-            return articlesGrade2;
-        }
+        // //grade 2 articles
+        // public IEnumerable<Articles> GetGrade2()
+        // {
+        //     return articlesGrade2;
+        // }
 
     }
 }
