@@ -3,6 +3,7 @@ h1 {
     text-align: center;
 }
 
+/* makes it so main content go downards and that everything is centered*/
 main{
     display: flex;
     flex-direction: column;
