@@ -37,7 +37,9 @@ namespace IllumiantiArchive.Controllers
 
 
         //the first http method. it's used for login as it is named.
-        //it uses the httpContext.session
+        //it uses httpContext.session to store the current username and securtylvl
+        //in the session so it can be used in the Article classes to check
+        //if the current user have acsess to the current Article
         [HttpPost("login")]
         public IActionResult Login([FromBody] Profiles loginRequest)
         {
