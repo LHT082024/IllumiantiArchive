@@ -14,10 +14,10 @@ namespace IllumiantiArchive.Controllers
     public class ArticleGrade2Controller
     {
 
-        private static List<Articles> articlesGrade2 = new List<Articles>()
+        private static List<Articles2> articlesGrade2 = new List<Articles2>()
         {
 
-              new Articles
+              new Articles2
              {ID = 4,
              Name = "Mi-go",
              Aliases = "The Fungi",
@@ -30,7 +30,7 @@ namespace IllumiantiArchive.Controllers
              FinalThoughts = "any sighting are to be reported directly to your superior. avoid any and all hostile actions unless it is in self defense, dont accept any offers of knowledge"
              },
 
-             new Articles
+             new Articles2
              {ID = 5,
              Name = "Zann",
              Aliases = "the Musican",
@@ -45,10 +45,10 @@ namespace IllumiantiArchive.Controllers
         };
 
         // //grade 2 articles
-        // public IEnumerable<Articles> GetGrade2()
-        // {
-        //     return articlesGrade2;
-        // }
+        public IEnumerable<Articles2> GetGrade2()
+        {
+            return articlesGrade2;
+        }
 
     }
 }
