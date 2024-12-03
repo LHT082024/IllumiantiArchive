@@ -49,10 +49,12 @@ namespace IllumiantiArchive.Controllers
             Information = "Has extreme moodswings, Usually very sweet, relaxed likes to tell jokes then at the drop of a hat turns unpleasent and agressive",
             FinalThoughts = "dont engage, if you see her run, get away, dont engage, dont engage"
             },
-
-
-
         };
+
+        private static List<Articles> articlesGrade2 = new List<Articles>()
+        {
+
+        }
 
 
     }
