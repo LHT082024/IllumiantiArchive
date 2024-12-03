@@ -12,7 +12,7 @@ namespace IllumiantiArchive.Controllers
     public class ArticlesController
     {
         //the most dangoures anomalies only leaders will have acsess to these files
-        private static List<Articles> articlesGrade1 = new List<Articles>()
+        private static List<Articles> ArticlesGrade1 = new List<Articles>()
         {
             new Articles{ID = 1,
             Name = "Odin",
@@ -52,7 +52,7 @@ namespace IllumiantiArchive.Controllers
         };
 
         //5/10 dangoures Anomolies, most employees will know about these.
-        private static List<Articles> articlesGrade2 = new List<Articles>()
+        private static List<Articles> ArticlesGrade2 = new List<Articles>()
         {
             new Articles
              {ID = 4,
@@ -81,6 +81,19 @@ namespace IllumiantiArchive.Controllers
              }
 
         };
+
+        //Grade 1 articles.
+        [HttpGet]
+        public IEnumerable<Articles> GetGrade1()
+        {
+            return ArticlesGrade1;
+        }
+
+        //grade 2 articles
+        public IEnumerable<Articles> GetGrade2()
+        {
+            return ArticlesGrade2;
+        }
 
 
     }
