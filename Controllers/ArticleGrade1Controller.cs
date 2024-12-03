@@ -53,12 +53,11 @@ namespace IllumiantiArchive.Controllers
             },
         };
 
-        //5/10 dangoures Anomolies, most employees will know about these.
-
         //Grade 1 articles.
         [HttpGet]
         public IActionResult GetGrade1()
         {
+            //checks the security lvl of the currently logged in user
             var securityLevel = HttpContext.Session.GetInt32("SecurityLevel");
 
             if (securityLevel == 1)

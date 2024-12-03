@@ -40,6 +40,7 @@ namespace IllumiantiArchive.Controllers
                 return Unauthorized(new { Message = "Invalid Username or Password" });
             }
 
+            //stores username and securitylvl in the session.
             HttpContext.Session.SetString("LoggedInUser", user.Username);
             HttpContext.Session.SetInt32("SecurityLevel", user.Securitylvl);
 
