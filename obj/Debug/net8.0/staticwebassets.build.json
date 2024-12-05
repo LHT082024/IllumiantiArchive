@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tgxha3SkJ+HXyZ+/0JYAcCJchmND//i7E0HdqDwqN/o=",
+  "Hash": "iHTiiqEFXfVHPcgnB0K9vYb2d7J8psCgciuRIzUtU5s=",
   "Source": "IllumiantiArchive",
   "BasePath": "_content/IllumiantiArchive",
   "Mode": "Default",
@@ -17,6 +17,27 @@
   ],
   "Assets": [
     {
+      "Identity": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\articles.html",
+      "SourceId": "IllumiantiArchive",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\",
+      "BasePath": "_content/IllumiantiArchive",
+      "RelativePath": "articles#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3yikzy6yh",
+      "Integrity": "JR3u62+89PdweiXBk/E6B4/tNAvp3tiBaOEgt6qDMVQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\articles.html"
+    },
+    {
       "Identity": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\index.html",
       "SourceId": "IllumiantiArchive",
       "SourceType": "Discovered",
@@ -31,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rbebw4wfg2",
-      "Integrity": "R40mBhpBfcYaGxLtyV0nM8oWI5kpTgLUnfMf8EbAqyY=",
+      "Fingerprint": "2s42nzcrxt",
+      "Integrity": "sudtTjvs+v568ugDGOZFjm+hdZ2j4aNtUOy1AuB0E1Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -61,6 +82,133 @@
   ],
   "Endpoints": [
     {
+      "Route": "articles.html",
+      "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\articles.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "225"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JR3u62+89PdweiXBk/E6B4/tNAvp3tiBaOEgt6qDMVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 14:14:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JR3u62+89PdweiXBk/E6B4/tNAvp3tiBaOEgt6qDMVQ="
+        }
+      ]
+    },
+    {
+      "Route": "articles.p3yikzy6yh.html",
+      "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\articles.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "225"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JR3u62+89PdweiXBk/E6B4/tNAvp3tiBaOEgt6qDMVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 14:14:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3yikzy6yh"
+        },
+        {
+          "Name": "label",
+          "Value": "articles.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JR3u62+89PdweiXBk/E6B4/tNAvp3tiBaOEgt6qDMVQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.2s42nzcrxt.html",
+      "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sudtTjvs+v568ugDGOZFjm+hdZ2j4aNtUOy1AuB0E1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 15:11:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2s42nzcrxt"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sudtTjvs+v568ugDGOZFjm+hdZ2j4aNtUOy1AuB0E1Q="
+        }
+      ]
+    },
+    {
       "Route": "index.html",
       "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\index.html",
       "Selectors": [],
@@ -71,7 +219,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1385"
+          "Value": "1415"
         },
         {
           "Name": "Content-Type",
@@ -79,11 +227,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R40mBhpBfcYaGxLtyV0nM8oWI5kpTgLUnfMf8EbAqyY=\""
+          "Value": "\"sudtTjvs+v568ugDGOZFjm+hdZ2j4aNtUOy1AuB0E1Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 15:08:38 GMT"
+          "Value": "Thu, 05 Dec 2024 15:11:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -93,52 +241,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R40mBhpBfcYaGxLtyV0nM8oWI5kpTgLUnfMf8EbAqyY="
-        }
-      ]
-    },
-    {
-      "Route": "index.rbebw4wfg2.html",
-      "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1385"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"R40mBhpBfcYaGxLtyV0nM8oWI5kpTgLUnfMf8EbAqyY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 15:08:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rbebw4wfg2"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-R40mBhpBfcYaGxLtyV0nM8oWI5kpTgLUnfMf8EbAqyY="
+          "Value": "sha256-sudtTjvs+v568ugDGOZFjm+hdZ2j4aNtUOy1AuB0E1Q="
         }
       ]
     },
