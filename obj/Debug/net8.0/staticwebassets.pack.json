@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\articles.html",
-      "PackagePath": "staticwebassets\\articles.html"
-    },
-    {
       "Id": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

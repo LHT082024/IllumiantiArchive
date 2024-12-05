@@ -1,32 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--links css and javascript to the html document-->
-    <link rel="stylesheet" href="styles.css?v">
-    <!-- <script type="text/javascript" src="" defer></script> -->
-     <script type="text/javascript" src="/script.js?v=1.0" defer></script>
-    <title>Archive</title>
+    <title>Login Page</title>
 </head>
-
 <body>
-    <header>
-        <h1>The Archive</h1>
-    </header>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
 
-    <main id="loginFront">
-        <p>Username</p>
-        <input type="text" id="usernameFront"> 
+    <script>
+        function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
 
-        <p>Password</p>
-        <input type="text" id="passwordFront">
+            const loginData = {
+                username: username,
+                password: password
+            };
 
-        <div id="loginButton">
-           <button onclick="Login()">login</button>
-        </div>
-    </main>
+            fetch('/api/login/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(loginData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                if (data.Message === "Login successful") {
+                    // Handle successful login, e.g., redirect to another page
+                    location.href ='/articles.html';
 
-     <div id="status"></div>
+                } else {
+                    // Handle login failure, e.g., display an error message
+                    alert(data.Message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Handle network errors or other exceptions
+            });
+        }
+    </script>
 </body>
 </html>

@@ -49,5 +49,30 @@ app.MapControllers();
 // Set a default route to redirect to your frontend
 app.MapGet("/", () => Results.Redirect("/swagger"));
 
+
+
 // Run the application
-app.Run();
+app.Run(); void ConfigureServices(IServiceCollection services)
+{
+    services.AddCors(options =>
+    {
+        options.AddDefaultPolicy(builder =>
+        {
+            builder.WithOrigins("http://localhost:5118/") // Your frontend's origin
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+    });
+
+    services.AddControllers();
+}
+
+void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    app.UseRouting();
+    app.UseCors(); // Enable CORS
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllers();
+    });
+}
