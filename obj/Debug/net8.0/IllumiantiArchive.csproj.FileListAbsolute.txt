@@ -82,3 +82,4 @@ C:\Users\lucie\Documents\Intro-HtmlCss\IllumiantiArchive-1\bin\Debug\net8.0\Micr
 C:\Users\lucie\Documents\Intro-HtmlCss\IllumiantiArchive-1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\lucie\Documents\Intro-HtmlCss\IllumiantiArchive-1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\lucie\Documents\Intro-HtmlCss\IllumiantiArchive-1\obj\Debug\net8.0\staticwebassets\msbuild.IllumiantiArchive.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\lucie\Documents\Intro-HtmlCss\IllumiantiArchive-1\bin\Debug\net8.0\IllumiantiArchive.staticwebassets.runtime.json
