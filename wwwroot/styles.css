@@ -10,3 +10,7 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+#loginButton{
+    padding-top: 5px;
+}

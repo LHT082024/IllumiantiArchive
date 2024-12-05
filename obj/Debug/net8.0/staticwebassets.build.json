@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "skt2ApFKvRan/b8Cs1AKStg1cebGCSPzuO5Xl1jOKp0=",
+  "Hash": "LfZyO7a9ei+8OsdmdRm/Fi27051wfU78b5P7/IcOyTE=",
   "Source": "IllumiantiArchive",
   "BasePath": "_content/IllumiantiArchive",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nhef2irsom",
-      "Integrity": "G3HzM2dJtyFnGSlttYLG0F2o/FCYP16nbczK6wCrv3k=",
+      "Fingerprint": "qsfr5rmk6e",
+      "Integrity": "ulmpHFUnyt1dFyjQChZoz60dz2aELaiBa1m6qOe42DY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ee55wqn4fk",
-      "Integrity": "luIeT4FskzFEXKjYAcEMlHx0TqqwlEyHKt1LyC5FrxY=",
+      "Fingerprint": "ovbzs535re",
+      "Integrity": "HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styles.css"
@@ -92,7 +92,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "625"
+          "Value": "676"
         },
         {
           "Name": "Content-Type",
@@ -100,11 +100,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"G3HzM2dJtyFnGSlttYLG0F2o/FCYP16nbczK6wCrv3k=\""
+          "Value": "\"ulmpHFUnyt1dFyjQChZoz60dz2aELaiBa1m6qOe42DY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 13:54:08 GMT"
+          "Value": "Thu, 05 Dec 2024 07:54:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -114,12 +114,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-G3HzM2dJtyFnGSlttYLG0F2o/FCYP16nbczK6wCrv3k="
+          "Value": "sha256-ulmpHFUnyt1dFyjQChZoz60dz2aELaiBa1m6qOe42DY="
         }
       ]
     },
     {
-      "Route": "index.nhef2irsom.html",
+      "Route": "index.qsfr5rmk6e.html",
       "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -129,7 +129,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "625"
+          "Value": "676"
         },
         {
           "Name": "Content-Type",
@@ -137,11 +137,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"G3HzM2dJtyFnGSlttYLG0F2o/FCYP16nbczK6wCrv3k=\""
+          "Value": "\"ulmpHFUnyt1dFyjQChZoz60dz2aELaiBa1m6qOe42DY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 13:54:08 GMT"
+          "Value": "Thu, 05 Dec 2024 07:54:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -151,7 +151,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nhef2irsom"
+          "Value": "qsfr5rmk6e"
         },
         {
           "Name": "label",
@@ -159,7 +159,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-G3HzM2dJtyFnGSlttYLG0F2o/FCYP16nbczK6wCrv3k="
+          "Value": "sha256-ulmpHFUnyt1dFyjQChZoz60dz2aELaiBa1m6qOe42DY="
         }
       ]
     },
@@ -256,7 +256,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "254"
+          "Value": "297"
         },
         {
           "Name": "Content-Type",
@@ -264,11 +264,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"luIeT4FskzFEXKjYAcEMlHx0TqqwlEyHKt1LyC5FrxY=\""
+          "Value": "\"HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 13:43:17 GMT"
+          "Value": "Thu, 05 Dec 2024 07:55:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -278,12 +278,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-luIeT4FskzFEXKjYAcEMlHx0TqqwlEyHKt1LyC5FrxY="
+          "Value": "sha256-HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ="
         }
       ]
     },
     {
-      "Route": "styles.ee55wqn4fk.css",
+      "Route": "styles.ovbzs535re.css",
       "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -293,7 +293,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "254"
+          "Value": "297"
         },
         {
           "Name": "Content-Type",
@@ -301,11 +301,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"luIeT4FskzFEXKjYAcEMlHx0TqqwlEyHKt1LyC5FrxY=\""
+          "Value": "\"HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 13:43:17 GMT"
+          "Value": "Thu, 05 Dec 2024 07:55:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -315,7 +315,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ee55wqn4fk"
+          "Value": "ovbzs535re"
         },
         {
           "Name": "label",
@@ -323,7 +323,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-luIeT4FskzFEXKjYAcEMlHx0TqqwlEyHKt1LyC5FrxY="
+          "Value": "sha256-HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ="
         }
       ]
     }
