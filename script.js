@@ -4,7 +4,7 @@ async function Login() {
 
     console.log(username, password)
     try {
-        const response = await fetch("api/login", {
+        const response = await fetch("http://localhost:5118/api/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -28,6 +28,7 @@ async function Login() {
     }
 }
 
+const userCredentials = { Username: "Snorre", Password: "ReykholtIsBae1179" };
 fetch('http://localhost:5118/api/login', {
   method: 'POST',
   headers: {

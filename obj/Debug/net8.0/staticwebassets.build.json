@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gm6xZl8ceDnXqQZTATVqGCju+ahINitOinUrr1Vkqvg=",
+  "Hash": "rs8sEZgGFrksohxQ0UmUCjS7NffqtmTkfLzOgOlYvHU=",
   "Source": "IllumiantiArchive",
   "BasePath": "_content/IllumiantiArchive",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9c7lc3q5ji",
-      "Integrity": "l4/j1oIUAP2xn0u033PD4XNqq/bHMadwAEObB8pmb5E=",
+      "Fingerprint": "85fzzlse0z",
+      "Integrity": "bO4yT3D15AYxrFvylyoZTreeU4C4QS2IQ0aEhvXzpmo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i9tqyc1919",
-      "Integrity": "WoeBxLQ36qapNUrYFCHPxLGln4E7+4gQGoExR93Wxf8=",
+      "Fingerprint": "ntylznqe14",
+      "Integrity": "dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\script.js"
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "Route": "index.9c7lc3q5ji.html",
+      "Route": "index.85fzzlse0z.html",
       "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -195,7 +195,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "734"
+          "Value": "847"
         },
         {
           "Name": "Content-Type",
@@ -203,11 +203,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"l4/j1oIUAP2xn0u033PD4XNqq/bHMadwAEObB8pmb5E=\""
+          "Value": "\"bO4yT3D15AYxrFvylyoZTreeU4C4QS2IQ0aEhvXzpmo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 11:27:32 GMT"
+          "Value": "Thu, 05 Dec 2024 12:41:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -217,7 +217,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9c7lc3q5ji"
+          "Value": "85fzzlse0z"
         },
         {
           "Name": "label",
@@ -225,7 +225,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-l4/j1oIUAP2xn0u033PD4XNqq/bHMadwAEObB8pmb5E="
+          "Value": "sha256-bO4yT3D15AYxrFvylyoZTreeU4C4QS2IQ0aEhvXzpmo="
         }
       ]
     },
@@ -240,7 +240,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "734"
+          "Value": "847"
         },
         {
           "Name": "Content-Type",
@@ -248,11 +248,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"l4/j1oIUAP2xn0u033PD4XNqq/bHMadwAEObB8pmb5E=\""
+          "Value": "\"bO4yT3D15AYxrFvylyoZTreeU4C4QS2IQ0aEhvXzpmo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 11:27:32 GMT"
+          "Value": "Thu, 05 Dec 2024 12:41:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -262,52 +262,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-l4/j1oIUAP2xn0u033PD4XNqq/bHMadwAEObB8pmb5E="
-        }
-      ]
-    },
-    {
-      "Route": "script.i9tqyc1919.js",
-      "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1018"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WoeBxLQ36qapNUrYFCHPxLGln4E7+4gQGoExR93Wxf8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 11:25:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i9tqyc1919"
-        },
-        {
-          "Name": "label",
-          "Value": "script.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WoeBxLQ36qapNUrYFCHPxLGln4E7+4gQGoExR93Wxf8="
+          "Value": "sha256-bO4yT3D15AYxrFvylyoZTreeU4C4QS2IQ0aEhvXzpmo="
         }
       ]
     },
@@ -322,7 +277,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1018"
+          "Value": "1960"
         },
         {
           "Name": "Content-Type",
@@ -330,11 +285,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WoeBxLQ36qapNUrYFCHPxLGln4E7+4gQGoExR93Wxf8=\""
+          "Value": "\"dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 11:25:34 GMT"
+          "Value": "Thu, 05 Dec 2024 12:39:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -344,7 +299,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WoeBxLQ36qapNUrYFCHPxLGln4E7+4gQGoExR93Wxf8="
+          "Value": "sha256-dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0="
+        }
+      ]
+    },
+    {
+      "Route": "script.ntylznqe14.js",
+      "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 12:39:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ntylznqe14"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0="
         }
       ]
     },

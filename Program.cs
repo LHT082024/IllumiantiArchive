@@ -1,20 +1,24 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Options;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 
-//DistributedMemoryCache lets the application to store data from previous requests in the memory of the application.'
-//AddSession allows the application to store multiple user requests in the application over a single browser session
+// Add session services
 builder.Services.AddDistributedMemoryCache();
-builder.Services.AddSession(Options =>
+builder.Services.AddSession(options =>
 {
-    Options.IdleTimeout = TimeSpan.FromMinutes(30);
-    Options.Cookie.HttpOnly = true;
-    Options.Cookie.IsEssential = true;
+    options.IdleTimeout = TimeSpan.FromMinutes(30);  // Session timeout
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
+// Enable CORS to allow requests from any origin
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+        builder.AllowAnyOrigin()  // Allow any origin
+               .AllowAnyMethod()  // Allow all HTTP methods (GET, POST, etc.)
+               .AllowAnyHeader()); // Allow all headers
 });
 
 builder.Services.AddEndpointsApiExplorer();
@@ -25,22 +29,25 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    //UseSession is what really allows me to store user specific data over multiple requests
-    //in a single browers session
+    // Use session and Swagger in development mode
     app.UseSession();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("AllowAll");  // Enable CORS
+app.UseRouting();
 app.UseAuthorization();
 
+// Serve static files if needed (for example, index.html)
 app.UseFileServer();
 
-// app.MapGet("/", () => Results.Redirect("http://localhost:5118/index.html"));
-app.MapGet("/", () => Results.Redirect($"http://localhost:5118/index.html?v={DateTime.UtcNow.Ticks}"));
-
+// Map controllers
 app.MapControllers();
 
+// Set a default route to redirect to your frontend
+app.MapGet("/", () => Results.Redirect($"http://localhost:5118/index.html?v={DateTime.UtcNow.Ticks}"));
+
+// Run the application
 app.Run();
