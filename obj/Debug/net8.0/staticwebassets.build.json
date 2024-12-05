@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dIT7nswunBLPB2V/+meaUjJNnf0pfqrvb59q7OHj5RA=",
+  "Hash": "+xGRnGjwJbVPBpWBPTjtTlz+v4U/07NzAYj0waQVqoo=",
   "Source": "IllumiantiArchive",
   "BasePath": "_content/IllumiantiArchive",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xc003cco32",
-      "Integrity": "L6tdMjc0KlP4fUYl3eIB0eK2zNuXk1SdnqP5TKlmCgg=",
+      "Fingerprint": "u0nxbfmux5",
+      "Integrity": "MqYCxn3slqbtBL+R6Z7xEPa+UY+UXQ8HJpKVK2msYIE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ovbzs535re",
-      "Integrity": "HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ=",
+      "Fingerprint": "fuztugd3ru",
+      "Integrity": "SfftLxps7UyKYW36wi4XP2lsVSRSaK1n3WZA9C8CPNc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styles.css"
@@ -195,7 +195,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "749"
+          "Value": "719"
         },
         {
           "Name": "Content-Type",
@@ -203,11 +203,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L6tdMjc0KlP4fUYl3eIB0eK2zNuXk1SdnqP5TKlmCgg=\""
+          "Value": "\"MqYCxn3slqbtBL+R6Z7xEPa+UY+UXQ8HJpKVK2msYIE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:38:31 GMT"
+          "Value": "Thu, 05 Dec 2024 08:54:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -217,12 +217,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L6tdMjc0KlP4fUYl3eIB0eK2zNuXk1SdnqP5TKlmCgg="
+          "Value": "sha256-MqYCxn3slqbtBL+R6Z7xEPa+UY+UXQ8HJpKVK2msYIE="
         }
       ]
     },
     {
-      "Route": "index.xc003cco32.html",
+      "Route": "index.u0nxbfmux5.html",
       "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -232,7 +232,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "749"
+          "Value": "719"
         },
         {
           "Name": "Content-Type",
@@ -240,11 +240,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L6tdMjc0KlP4fUYl3eIB0eK2zNuXk1SdnqP5TKlmCgg=\""
+          "Value": "\"MqYCxn3slqbtBL+R6Z7xEPa+UY+UXQ8HJpKVK2msYIE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 08:38:31 GMT"
+          "Value": "Thu, 05 Dec 2024 08:54:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -254,7 +254,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xc003cco32"
+          "Value": "u0nxbfmux5"
         },
         {
           "Name": "label",
@@ -262,7 +262,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-L6tdMjc0KlP4fUYl3eIB0eK2zNuXk1SdnqP5TKlmCgg="
+          "Value": "sha256-MqYCxn3slqbtBL+R6Z7xEPa+UY+UXQ8HJpKVK2msYIE="
         }
       ]
     },
@@ -359,7 +359,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "297"
+          "Value": "404"
         },
         {
           "Name": "Content-Type",
@@ -367,11 +367,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ=\""
+          "Value": "\"SfftLxps7UyKYW36wi4XP2lsVSRSaK1n3WZA9C8CPNc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 07:55:14 GMT"
+          "Value": "Thu, 05 Dec 2024 09:15:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -381,12 +381,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ="
+          "Value": "sha256-SfftLxps7UyKYW36wi4XP2lsVSRSaK1n3WZA9C8CPNc="
         }
       ]
     },
     {
-      "Route": "styles.ovbzs535re.css",
+      "Route": "styles.fuztugd3ru.css",
       "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -396,7 +396,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "297"
+          "Value": "404"
         },
         {
           "Name": "Content-Type",
@@ -404,11 +404,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ=\""
+          "Value": "\"SfftLxps7UyKYW36wi4XP2lsVSRSaK1n3WZA9C8CPNc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 07:55:14 GMT"
+          "Value": "Thu, 05 Dec 2024 09:15:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -418,7 +418,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ovbzs535re"
+          "Value": "fuztugd3ru"
         },
         {
           "Name": "label",
@@ -426,7 +426,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HJmMXuG2kOroIylFH4czuXwetS8Bg9zwntjbC/Pw2SQ="
+          "Value": "sha256-SfftLxps7UyKYW36wi4XP2lsVSRSaK1n3WZA9C8CPNc="
         }
       ]
     }

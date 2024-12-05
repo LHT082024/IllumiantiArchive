@@ -11,6 +11,13 @@ main{
     justify-content: center;
 }
 
-#loginButton{
-    padding-top: 5px;
+#passwordFront{
+    align-self: center;
+    /* margin-bottom: 10px; */
+}
+
+
+#loginButton {
+align-self: center;
+margin-top: 20px;
 }
