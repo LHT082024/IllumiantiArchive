@@ -28,14 +28,14 @@
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                if (data.Message === "Login successful") {
-                    // Handle successful login, e.g., redirect to another page
-                    location.href ='/articles.html';
-
-                } else {
-                    // Handle login failure, e.g., display an error message
-                    alert(data.Message);
-                }
+              if (data && data.message) {
+    alert(data.message);
+    if (data.message === "Login successful") {
+        location.href = '/articles.html';
+    }
+} else {
+    alert('Unexpected server response. Please try again.');
+}
             })
             .catch(error => {
                 console.error('Error:', error);

@@ -37,8 +37,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");  // Enable CORS
-app.UseRouting();
-app.UseAuthorization();
+
 
 // Serve static files if needed (for example, index.html)
 app.UseFileServer();
@@ -70,6 +69,7 @@ app.Run(); void ConfigureServices(IServiceCollection services)
 void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
     app.UseRouting();
+    app.UseAuthorization();
     app.UseCors(); // Enable CORS
     app.UseEndpoints(endpoints =>
     {
