@@ -38,7 +38,9 @@ app.UseAuthorization();
 
 app.UseFileServer();
 
-app.MapGet("/", () => Results.Redirect("/index.html"));
+// app.MapGet("/", () => Results.Redirect("http://localhost:5118/index.html"));
+app.MapGet("/", () => Results.Redirect($"http://localhost:5118/index.html?v={DateTime.UtcNow.Ticks}"));
+
 app.MapControllers();
 
 app.Run();
