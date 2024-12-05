@@ -3,12 +3,12 @@ async function Login() {
    const password = document.getElementById("passwordFront").value;
 
    try {
-    const response = await fetch ("/api/login", {
+    const response = await fetch ("api/login", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
         },
-        body: JSON.stringify({Username: username, Password: password}),
+         body: JSON.stringify({ Username: username, Password: password})
     });
 
     const result = await response.json();

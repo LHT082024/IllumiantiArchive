@@ -16,8 +16,8 @@ namespace IllumiantiArchive.Controllers
     //beacuse my main priority here was just having a fun and easy website
     //where I created a login system with different privliages depending on 
     // the "security level" of the user, not really security.
+    [Route("api/[Controllers]")]
     [ApiController]
-    [Route("profiles")]
     public class loginController : ControllerBase
     {
         List<Profiles> profiles = new List<Profiles>()
@@ -56,7 +56,8 @@ namespace IllumiantiArchive.Controllers
             HttpContext.Session.SetString("LoggedInUser", user.Username);
             HttpContext.Session.SetInt32("SecurityLevel", user.Securitylvl);
 
-            return Ok(new { Message = "Login sucessful", profiles = user });
+            // return Ok(new { Message = "Login sucessful", profiles = user });
+            return Ok(new { profiles = new { Username = model.Username } });
         }
 
         //a method that lets you check if there are anyone currently logged in
