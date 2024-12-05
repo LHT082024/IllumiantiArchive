@@ -47,7 +47,7 @@ app.UseFileServer();
 app.MapControllers();
 
 // Set a default route to redirect to your frontend
-app.MapGet("/", () => Results.Redirect($"http://localhost:5118/index.html?v={DateTime.UtcNow.Ticks}"));
+app.MapGet("/", () => Results.Redirect("/swagger"));
 
 // Run the application
 app.Run();

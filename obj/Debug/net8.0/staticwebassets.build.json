@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rs8sEZgGFrksohxQ0UmUCjS7NffqtmTkfLzOgOlYvHU=",
+  "Hash": "Np8PfbRe4BN7g8hpjp0sxi7uC+fR2doJ99GsdNMVVoY=",
   "Source": "IllumiantiArchive",
   "BasePath": "_content/IllumiantiArchive",
   "Mode": "Default",
@@ -57,27 +57,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\script.js",
-      "SourceId": "IllumiantiArchive",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\",
-      "BasePath": "_content/IllumiantiArchive",
-      "RelativePath": "script#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ntylznqe14",
-      "Integrity": "dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\script.js"
     },
     {
       "Identity": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\styles.css",
@@ -207,7 +186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 12:41:25 GMT"
+          "Value": "Thu, 05 Dec 2024 12:58:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -252,7 +231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 12:41:25 GMT"
+          "Value": "Thu, 05 Dec 2024 12:58:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -263,88 +242,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-bO4yT3D15AYxrFvylyoZTreeU4C4QS2IQ0aEhvXzpmo="
-        }
-      ]
-    },
-    {
-      "Route": "script.js",
-      "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1960"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 12:39:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0="
-        }
-      ]
-    },
-    {
-      "Route": "script.ntylznqe14.js",
-      "AssetFile": "C:\\Users\\lucie\\Documents\\Intro-HtmlCss\\IllumiantiArchive-1\\wwwroot\\script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1960"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 12:39:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ntylznqe14"
-        },
-        {
-          "Name": "label",
-          "Value": "script.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0="
         }
       ]
     },

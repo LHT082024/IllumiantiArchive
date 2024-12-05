@@ -111,7 +111,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 12:41:25 GMT"
+          "Value": "Thu, 05 Dec 2024 12:58:53 GMT"
         }
       ],
       "EndpointProperties": [
@@ -156,95 +156,13 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 12:41:25 GMT"
+          "Value": "Thu, 05 Dec 2024 12:58:53 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-bO4yT3D15AYxrFvylyoZTreeU4C4QS2IQ0aEhvXzpmo="
-        }
-      ]
-    },
-    {
-      "Route": "script.js",
-      "AssetFile": "script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1960"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 12:39:41 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0="
-        }
-      ]
-    },
-    {
-      "Route": "script.ntylznqe14.js",
-      "AssetFile": "script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1960"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 05 Dec 2024 12:39:41 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ntylznqe14"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dX1KhscuK+btu2SWIqid/RoPPsstr1TNn0O+ybs77f0="
-        },
-        {
-          "Name": "label",
-          "Value": "script.js"
         }
       ]
     },
